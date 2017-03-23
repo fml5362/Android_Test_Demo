@@ -1,6 +1,5 @@
 package com.skyocean.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -21,6 +20,7 @@ public class SplashActivity extends BaseActivity {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             switch (msg.what){
+
                 case 1:{
                     //跳转到主界面
                     GoActivity(MainActivity.class);
