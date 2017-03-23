@@ -14,7 +14,7 @@ import com.skyocean.ui.base.MainActivity;
  */
 
 public class SplashActivity extends BaseActivity {
-
+//小修改
     private Handler mHandler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
